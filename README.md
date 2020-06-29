@@ -1,25 +1,6 @@
 # Fugue
 Fugue is a decoupled transaction component providing transaction processing for applications, primarily decoupled data stores and query runtime. It is elastic from multi-cores to multi-machines, and therefore can be used in on-premise environments as a library or in cloud. It aims to integrate with first- or third-party data stores and query runtime and make transaction processing pay-as-you-go for existing data management systems and platforms. The project explores a new business model that data management systems and platforms are assembled from separate, first- or third-party components/services (i.e., data stores, transaction and query runtime), and that we deliver one service at a time augmenting existing products or all assembled as a whole.
 
-# Build
-
-## Linux environment
-
-#### Requirement
-
-- [cmake](https://cmake.org/)
-- If you want to run test code on cassandra data store: [cassandra](http://cassandra.apache.org/) 
-
-#### Build
-
-```bash
-./bootstrap.sh
-
-mkdir build && cd build
-# optionally, use: -D CMAKE_BUILD_TYPE=Release or: -D CMAKE_BUILD_TYPE=Debug
-cmake .. 
-make
-```
 
 # Contributing
 
